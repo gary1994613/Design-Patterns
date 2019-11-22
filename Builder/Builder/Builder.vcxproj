@@ -123,7 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcretePersonBuilder.cpp" />
+    <ClCompile Include="IPersonBuilder.cpp" />
+    <ClCompile Include="PersonDirector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Person.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConcretePersonBuilder.h" />
+    <ClInclude Include="IPersonBuilder.h" />
+    <ClInclude Include="PersonDirector.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

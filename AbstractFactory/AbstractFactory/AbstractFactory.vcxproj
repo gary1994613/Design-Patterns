@@ -123,7 +123,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConcreteAccessDepartment.cpp" />
+    <ClCompile Include="ConcreteAccessUser.cpp" />
+    <ClCompile Include="ConcreteDatabase.cpp" />
+    <ClCompile Include="Department.cpp" />
+    <ClCompile Include="IAccessDepartment.cpp" />
+    <ClCompile Include="IAccessUser.cpp" />
+    <ClCompile Include="IDatabase.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConcreteAccessDepartment.h" />
+    <ClInclude Include="ConcreteAccessUser.h" />
+    <ClInclude Include="ConcreteDatabase.h" />
+    <ClInclude Include="Department.h" />
+    <ClInclude Include="IAccessDepartment.h" />
+    <ClInclude Include="IAccessUser.h" />
+    <ClInclude Include="IDatabase.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,5 +18,55 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConcreteAccessDepartment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteAccessUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Department.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IAccessDepartment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IAccessUser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConcreteAccessDepartment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteAccessUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Department.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAccessDepartment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAccessUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{B96A50E5-16AB-4F8A-A4BE-546DC308227E}</ProjectGuid>
+    <ProjectGuid>{DB31EFBD-879E-4953-B8B0-AD3984DDA741}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Prototype</RootNamespace>
+    <RootNamespace>Singleton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,19 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IAnimalPrototype.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PersonalInfo.cpp" />
-    <ClCompile Include="Resume.cpp" />
-    <ClCompile Include="Sheep.cpp" />
-    <ClCompile Include="WorkExperience.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IAnimalPrototype.h" />
-    <ClInclude Include="PersonalInfo.h" />
-    <ClInclude Include="Resume.h" />
-    <ClInclude Include="Sheep.h" />
-    <ClInclude Include="WorkExperience.h" />
+    <ClCompile Include="Singleton.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

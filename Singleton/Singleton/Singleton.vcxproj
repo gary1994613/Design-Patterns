@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DB31EFBD-879E-4953-B8B0-AD3984DDA741}</ProjectGuid>
+    <ProjectGuid>{7A390ADD-23CB-4463-90A2-BACAC302F13A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Singleton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
